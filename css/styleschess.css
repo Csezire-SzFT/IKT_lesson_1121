@@ -1,0 +1,35 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+table {
+   margin: auto auto;
+   width: 40%;
+}
+
+table, td, th {
+   border: 1px solid gray;
+   border-collapse: collapse;
+   padding: 5px 5px;
+   text-align: center;
+   font-weight: bold;
+
+th  {
+   background: grey;
+}  
+
+
+tr {
+   width: 20px;
+   height: 20px;
+}   
+
+tr:nth-child(odd) td:nth-child(even) {
+   background: lightgray;
+}
+
+tr:nth-child(even) td:nth-child(odd) {
+   background: lightgray;
+}

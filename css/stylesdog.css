@@ -1,0 +1,46 @@
+* {
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+}
+
+.dogtable {
+   overflow-x: auto;
+}
+
+table {
+   margin: auto auto;
+   width: 40%;
+}
+
+caption {
+   text-align: center;
+   font-size: 22px;
+   font-weight: bold;
+   padding: 10px 0px;
+}
+
+table, td, th {
+   border-top: 1px solid gray;
+   border-bottom: 1px solid gray;
+   border-collapse: collapse;
+   padding: 5px 0px;
+}
+
+th {
+   background: white;
+}
+
+tr {
+   text-align: center;
+   font-weight: bold;
+}
+
+tr:nth-child(odd) {
+   background: lightgray;
+}
+
+tr:nth-child(5) td:nth-child(3) {
+   background: red;
+}
+
